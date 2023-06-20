@@ -672,15 +672,19 @@ footer .copy {
     top: 0;
     right: 0;
     background-color: #fff;
-    width: 35%;
+    width: 40%;
+    height: 100vh;
     z-index: 1;
     padding-top: 55px;
   }
   .navigation ul li {
-    padding: 15px 10px;
+    padding: 15px 30px;
   }
   .navigation ul li a {
     padding: 0;
+  }
+  .navigation ul .btn-nav {
+    margin-left: 28px;
   }
   .navigation button {
     position: relative;
