@@ -64,6 +64,7 @@ header {
         display: flex;
         justify-content: space-between;
         margin-bottom: 0;
+        align-items:center;
 
         li {
             a {
@@ -273,6 +274,7 @@ header {
         padding: 5px;
         line-height: 75px;
         color: $heading-color;
+        text-align: center;
     }
 
     p {
@@ -792,11 +794,24 @@ footer {
         }
     }
     .stuff {
+        h1{
+            padding: 0;
+        }
         .four-section {
             .box {
                 width: 45%;
                 margin: 10px;
             }
+        }
+    }
+    .client{
+        h1{
+            padding: 0;
+        }
+    }
+    .tips-tricks{
+        h1{
+            padding: 0;
         }
     }
     .pricing{

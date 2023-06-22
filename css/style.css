@@ -27,6 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
+  align-items: center;
 }
 .navigation ul li a {
   font-size: 1rem;
@@ -242,6 +243,7 @@ header {
   padding: 5px;
   line-height: 75px;
   color: #2b4b80;
+  text-align: center;
 }
 .we-create p {
   font-size: 16px;
@@ -708,9 +710,18 @@ footer .copy {
     height: 100%;
     padding: 0;
   }
+  .stuff h1 {
+    padding: 0;
+  }
   .stuff .four-section .box {
     width: 45%;
     margin: 10px;
+  }
+  .client h1 {
+    padding: 0;
+  }
+  .tips-tricks h1 {
+    padding: 0;
   }
   .pricing .width .three-box {
     flex-wrap: wrap;
